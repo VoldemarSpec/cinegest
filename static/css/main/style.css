@@ -1,0 +1,286 @@
+.plugin-file-cover {
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.plugin-file-cover .div {
+    background-color: #101010;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+}
+
+.plugin-file-cover .overlap {
+    position: absolute;
+    width: 1426px;
+    height: 805px;
+    top: 87px;
+    left: 270px;
+}
+
+.plugin-file-cover .rectangle {
+    width: 822px;
+    height: 805px;
+    left: 604px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.plugin-file-cover .CINEGEST {
+    position: absolute;
+    width: 1310px;
+    height: 103px;
+    top: 609px;
+    left: 0;
+}
+
+.plugin-file-cover .text-wrapper {
+    position: absolute;
+    width: 596px;
+    top: 139px;
+    left: 8px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 128px;
+    letter-spacing: 38.40px;
+    line-height: normal;
+}
+
+.plugin-file-cover .text-wrapper-2 {
+    position: absolute;
+    width: 596px;
+    top: 328px;
+    left: 210px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 128px;
+    letter-spacing: 38.40px;
+    line-height: normal;
+}
+
+.plugin-file-cover .overlap-group {
+    position: absolute;
+    width: 1922px;
+    height: 87px;
+    top: -14px;
+    left: -1px;
+}
+
+.plugin-file-cover .rectangle-2 {
+    width: 1922px;
+    height: 86px;
+    left: 0;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.plugin-file-cover .group {
+    left: 12px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .div-wrapper {
+    position: relative;
+    display: flex;
+    width: 217px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+    transition: 0.35s;
+
+}
+.plugin-file-cover .div-wrapper:hover{
+    background: #333333;
+    cursor: pointer;
+}
+
+.plugin-file-cover .text-wrapper-3 {
+    position: relative;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    margin-right: auto;
+    padding-top: 0%;
+    margin-left: 18%;
+}
+.button_images{
+    width: 20%;
+    height: 75%;
+    position: relative;
+    padding-top: 3%;
+    margin-right:  10%;
+}
+#info_button{
+    padding-left: 8%;
+    width: 60   %;
+    padding-bottom: 2%;
+
+#clapper{
+    margin-top: 100%;
+}
+
+#profile_icon{
+   padding-left: 10%;
+    padding-bottom: 1%;
+    width: 10%;
+}
+}
+.plugin-file-cover .line {
+    left: 69px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .overlap-wrapper {
+    left: 1187px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .overlap-2 {
+    background-color: #1a1a1a;
+    position: relative;
+    display: flex;
+    width: 217px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+    transition: 0.35s;
+
+}
+
+.plugin-file-cover .overlap-2:hover{
+    background: #333333;
+    cursor: pointer;
+}
+
+.plugin-file-cover .img {
+    left: 1244px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .overlap-group-wrapper {
+    left: 1444px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .overlap-3 {
+    background-color: #1a1a1a;
+    position: relative;
+    display: flex;
+    width: 217px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+    transition: 0.35s;
+
+}
+.plugin-file-cover .overlap-3:hover{
+    background: #333333;
+    cursor: pointer;
+}
+
+.plugin-file-cover .line-2 {
+    left: 1501px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .group-2 {
+    left: 1699px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .line-3 {
+    left: 1756px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .group-3 {
+    left: 265px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .line-4 {
+    left: 322px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .group-4 {
+    left: 517px;
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+}
+
+.plugin-file-cover .line-5 {
+    left: 574px;
+    position: absolute;
+    width: 91px;
+    height: 1px;
+    top: 82px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .DALLE {
+    position: absolute;
+    width: 76px;
+    height: 73px;
+    top: 14px;
+    left: 923px;
+    object-fit: cover;
+}
+
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}

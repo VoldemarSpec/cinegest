@@ -1,0 +1,694 @@
+.plugin-file-cover {
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.plugin-file-cover .div {
+    background-color: #101010;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+}
+
+.plugin-file-cover .overlap {
+    position: absolute;
+    width: 1922px;
+    height: 87px;
+    top: -14px;
+    left: -1px;
+}
+
+.plugin-file-cover .rectangle {
+    width: 1922px;
+    height: 86px;
+    top: 0;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.plugin-file-cover .group {
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+    left: 12px;
+}
+
+.plugin-file-cover .overlap-group {
+    position: relative;
+    width: 217px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper {
+    position: absolute;
+    width: 112px;
+    top: -1px;
+    left: 41px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.plugin-file-cover .overlap-wrapper {
+    position: absolute;
+    width: 219px;
+    height: 51px;
+    top: 27px;
+    left: 1444px;
+}
+
+.plugin-file-cover .overlap-2 {
+    position: relative;
+    width: 217px;
+    height: 51px;
+}
+
+.plugin-file-cover .rectangle-2 {
+    width: 217px;
+    height: 50px;
+    top: 1px;
+    background-color: #1a1a1a;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+    position: absolute;
+    left: 0;
+}
+.rectangle-2:hover
+{
+    cursor: pointer;
+    background-color: #333333;
+    transition: 0.33s;
+}
+.rectangle-3:hover
+{
+    cursor: pointer;
+    background-color: #333333;
+    transition: 0.33s;
+}
+
+.overlap-3:hover
+{
+    cursor: pointer;
+    background-color: #333333;
+    transition: 0.33s;
+}
+.plugin-file-cover .text-wrapper-2 {
+    position: absolute;
+    width: 154px;
+    top: 0;
+    left: 10px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.plugin-file-cover .overlap-group-wrapper {
+    position: absolute;
+    width: 219px;
+    height: 51px;
+    top: 27px;
+    left: 1699px;
+}
+
+.plugin-file-cover .rectangle-3 {
+    position: absolute;
+    width: 217px;
+    height: 50px;
+    top: 1px;
+    left: 0;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper-3 {
+    position: absolute;
+    width: 112px;
+    top: 0;
+    left: 42px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.plugin-file-cover .div-wrapper {
+    position: absolute;
+    width: 219px;
+    height: 50px;
+    top: 28px;
+    left: 265px;
+}
+
+.plugin-file-cover .overlap-3 {
+    position: absolute;
+    width: 217px;
+    height: 50px;
+    top: 1px;
+    left: 0;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper-4 {
+    position: absolute;
+    width: 112px;
+    top: -1px;
+    left: 31px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.plugin-file-cover .DALLE {
+    position: absolute;
+    width: 76px;
+    height: 73px;
+    top: 14px;
+    left: 923px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .vector {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 31px;
+    left: 434px;
+}
+
+.plugin-file-cover .material-symbols {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 30px;
+    left: 170px;
+}
+
+.plugin-file-cover .img {
+    width: 42px;
+    height: 42px;
+    left: 1861px;
+    position: absolute;
+    top: 32px;
+}
+
+.plugin-file-cover .vector-2 {
+    width: 20px;
+    height: 40px;
+    left: 1624px;
+    position: absolute;
+    top: 32px;
+    margin-left: 8px;
+}
+
+.plugin-file-cover .film-searcher {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    top: 104px;
+    left: 806px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: transparent;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+#mover{
+    left: 20px;
+}
+.plugin-file-cover .span {
+    color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper-5 {
+    color: #ffffff;
+}
+
+.plugin-file-cover .overlap-4 {
+    position: absolute;
+    width: 430px;
+    height: 396px;
+    top: 536px;
+    left: 180px;
+    background-color: #2a2929;
+    border-radius: 31px;
+}
+
+.plugin-file-cover .overlap-5 {
+    position: absolute;
+    width: 150px;
+    height: 64px;
+    top: 185px;
+    left: 0;
+}
+
+.plugin-file-cover .line {
+    width: 149px;
+    height: 2px;
+    top: 50px;
+    position: absolute;
+    left: 0;
+}
+
+.plugin-file-cover .text-wrapper-6 {
+    position: absolute;
+    top: 0;
+    left: 33px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ff007f;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 64px;
+    white-space: nowrap;
+}
+
+.plugin-file-cover .overlap-6 {
+    position: absolute;
+    width: 224px;
+    height: 64px;
+    top: 116px;
+    left: 0;
+}
+
+.plugin-file-cover .line-2 {
+    width: 220px;
+    height: 2px;
+    top: 51px;
+    position: absolute;
+    left: 0;
+}
+
+.plugin-file-cover .text-wrapper-7 {
+    position: absolute;
+    top: 19px;
+    left: 33px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .overlap-7 {
+    position: absolute;
+    width: 178px;
+    height: 64px;
+    top: 254px;
+    left: 0;
+}
+
+.plugin-file-cover .line-3 {
+    width: 175px;
+    height: 3px;
+    top: 52px;
+    position: absolute;
+    left: 0;
+}
+
+.plugin-file-cover .overlap-8 {
+    position: absolute;
+    width: 189px;
+    height: 64px;
+    top: 323px;
+    left: 0;
+}
+
+.plugin-file-cover .line-4 {
+    width: 187px;
+    height: 3px;
+    top: 57px;
+    position: absolute;
+    left: 0;
+}
+
+.plugin-file-cover .overlap-9 {
+    position: absolute;
+    width: 1059px;
+    height: 716px;
+    top: 216px;
+    left: 707px;
+    background-color: #000000;
+    border-radius: 31px;
+}
+
+.plugin-file-cover .group-2 {
+    position: absolute;
+    width: 809px;
+    height: 271px;
+    top: 30px;
+    left: 234px;
+}
+
+.plugin-file-cover .image {
+    position: absolute;
+    width: 154px;
+    height: 231px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.plugin-file-cover .overlap-group-2 {
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 232px;
+    left: 28px;
+}
+
+.plugin-file-cover .text-wrapper-8 {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #cccccc;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .text-wrapper-9 {
+    position: absolute;
+    top: 0;
+    left: 14px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #cccccc;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .group-3 {
+    position: absolute;
+    width: 592px;
+    height: 271px;
+    top: 0;
+    left: 217px;
+}
+
+.plugin-file-cover .group-4 {
+    width: 375px;
+    top: 0;
+    left: 217px;
+    position: absolute;
+    height: 271px;
+}
+
+.plugin-file-cover .overlap-10 {
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 232px;
+    left: 33px;
+}
+
+.plugin-file-cover .group-5 {
+    width: 158px;
+    top: 0;
+    left: 217px;
+    position: absolute;
+    height: 271px;
+}
+
+.plugin-file-cover .group-6 {
+    width: 158px;
+    top: 30px;
+    left: 17px;
+    position: absolute;
+    height: 271px;
+}
+
+.plugin-file-cover .group-7 {
+    position: absolute;
+    width: 809px;
+    height: 271px;
+    top: 381px;
+    left: 234px;
+}
+
+.plugin-file-cover .overlap-11 {
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 232px;
+    left: 31px;
+}
+
+.plugin-file-cover .overlap-12 {
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 231px;
+    left: 30px;
+}
+
+.plugin-file-cover .text-wrapper-10 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #cccccc;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .group-8 {
+    position: absolute;
+    width: 158px;
+    height: 271px;
+    top: 381px;
+    left: 17px;
+}
+
+.plugin-file-cover .overlap-13 {
+    position: absolute;
+    width: 430px;
+    height: 255px;
+    top: 216px;
+    left: 180px;
+    background-color: #ff007f;
+    border-radius: 31px;
+}
+
+.plugin-file-cover .overlap-14 {
+    position: absolute;
+    width: 217px;
+    height: 51px;
+    top: 201px;
+    left: 103px;
+}
+.rectangle-4:hover{
+    background-color: white;
+}
+
+.plugin-file-cover .rectangle-4 {
+    width: 217px;
+    height: 50px;
+    top: 1px;
+    border-radius: 24px;
+    border: 4px solid;
+    border-color: #101010;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    transition: 0.33s;
+}
+
+.plugin-file-cover .text-wrapper-11 {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #101010;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+
+
+}
+
+.plugin-file-cover .search {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 8px;
+    left: 161px;
+    margin-left: 10px;
+}
+
+.plugin-file-cover .text-wrapper-12 {
+    position: absolute;
+    width: 143px;
+    top: 5px;
+    left: 143px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .overlap-15 {
+    position: absolute;
+    width: 157px;
+    height: 38px;
+    top: 73px;
+    left: 14px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+}
+
+select{width: 157px;
+    height: 38px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    color:white;
+    cursor: pointer;
+    font-weight: 900;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-size: 20px;
+    border-color: #ff007f;
+    text-align: center;
+     outline: none;
+     transition: all 0.3s ease;
+}
+
+option{
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    color: #ff007f;
+    font-weight: 900;
+}
+
+select:focus {
+    transform: scale(1.1); /* Увеличение меню при фокусе */
+    border-color: #ff007f;
+  }
+
+.plugin-file-cover .text-wrapper-13 {
+    position: absolute;
+    top: 4px;
+    left: 58px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #cccccc;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .image-2 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 13px;
+    left: 128px;
+    object-fit: cover;
+}
+
+.plugin-file-cover .overlap-16 {
+    position: absolute;
+    width: 157px;
+    height: 38px;
+    top: 73px;
+    left: 264px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+}
+
+.plugin-file-cover .text-wrapper-14 {
+    position: absolute;
+    top: 4px;
+    left: 45px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .overlap-17 {
+    position: absolute;
+    width: 157px;
+    height: 38px;
+    top: 149px;
+    left: 14px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+}
+
+.plugin-file-cover .text-wrapper-15 {
+    position: absolute;
+    top: 4px;
+    left: 46px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #cccccc;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.plugin-file-cover .overlap-18 {
+    position: absolute;
+    width: 157px;
+    height: 38px;
+    top: 149px;
+    left: 264px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+}
+
+.plugin-file-cover .text-wrapper-16 {
+    position: absolute;
+    top: 4px;
+    left: 43px;
+    font-family: "Circular Spotify Text-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+  width: 0;
+}
