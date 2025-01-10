@@ -692,3 +692,52 @@ select:focus {
 ::-webkit-scrollbar {
   width: 0;
 }
+
+
+
+
+  #movies-container {
+      padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+      gap: 30px;
+    justify-content: center;
+  }
+
+  .movie-card {
+    width: 175px;
+      height: 325px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+
+  }
+
+  .movie-poster {
+      padding: 10px;
+    width: 100%;
+    height: auto;
+  }
+
+  .movie-info {
+    padding: 1px;
+      font-family: "Circular Spotify Text-Black", Helvetica;
+  }
+
+  .movie-info h3 {
+    padding-left: 3px;
+      padding-right: 3px;
+    font-size: 16px;
+      font-weight: 900;
+      font-family: "Circular Spotify Text-Black", Helvetica;
+
+  }
+
+  .movie-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #cccccc;
+  }
+

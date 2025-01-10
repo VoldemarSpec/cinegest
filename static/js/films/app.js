@@ -27,20 +27,25 @@ document.getElementById("search_button").addEventListener("click", async () => {
     const data = await response.json();
 
 
+    const moviesContainer = document.getElementById("movies-container");
+    moviesContainer.innerHTML = "";
+
+
     data.results.forEach((movie) => {
       const movieCard = document.createElement("div");
       movieCard.className = "movie-card";
 
       movieCard.innerHTML = `
-        <img src="https://image.tmdb.org/t/p/w500${movie.picture}" alt="${movie.title}" class="movie-poster">
+        <img src="https://image.tmdb.org/t/p/w154/${movie.picture}" alt="${movie.title}" class="movie-poster">
         <div class="movie-info">
           <h3>${movie.title}</h3>
           <p>Genres: ${movie.genres.join(", ")}</p>
         </div>
-      `;
+      `
 
-    }
-    catch (error) {
+      moviesContainer.appendChild(movieCard);
+    });
+  } catch (error) {
     console.error("Error fetching movies:", error);
   }
 }})
