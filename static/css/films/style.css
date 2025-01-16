@@ -195,6 +195,7 @@
     top: 14px;
     left: 923px;
     object-fit: cover;
+    cursor: pointer;
 }
 
 .plugin-file-cover .vector {
@@ -291,6 +292,12 @@
     letter-spacing: 0;
     line-height: 64px;
     white-space: nowrap;
+}
+
+.text-wrapper-6 :hover{
+    transition: 0.2s;
+    color: white;
+    cursor: pointer;
 }
 
 .plugin-file-cover .overlap-6 {

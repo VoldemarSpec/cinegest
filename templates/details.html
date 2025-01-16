@@ -1,118 +1,118 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="/static/css/details/globals.css" />
-        <link rel="stylesheet" href="/static/css/details/style.css" />
-    </head>
-    <body>
-        <div class="plugin-file-cover">
-            <div class="div">
-                <div class="overlap">
-                    <div class="rectangle"></div>
-                    <img
-                        class="DALLE"
-                        src="/static/images/details/DALL·E 2024-12-26 11.26.09 - Create a flat, minimalistic logo in a cinematic style featuring a single object, such as a film reel or clapperboard. The design should use a dark bac 1.png"
-                    />
-                    <div class="group">
-                        <div class="overlap-group"><div class="text-wrapper">Films</div></div>
-                    </div>
-
-                    <img class="material-symbols" src="/static/images/details/aterial-symbols_movie.svg" />
-                    <div class="overlap-wrapper">
-                        <div class="div-wrapper">
-                            <div class="text-wrapper-2">Profile</div>
-                       </div>
-
-                    </div>
-                    <img class="vector" src="/static/images/details/Vector.svg"/>
-
-                    <div class="overlap-group-wrapper">
-                        <div class="overlap-2">
-                            <div class="rectangle-2">
-                            <div class="text-wrapper-3">About us</div></div>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <link rel="stylesheet" href="/static/css/details/globals.css" />
+            <link rel="stylesheet" href="/static/css/details/style.css" />
+        </head>
+        <body>
+            <div class="plugin-file-cover">
+                <div class="div">
+                    <div class="overlap">
+                        <div class="rectangle"></div>
+                        <img
+                            class="DALLE"
+                            src="/static/images/details/DALL·E 2024-12-26 11.26.09 - Create a flat, minimalistic logo in a cinematic style featuring a single object, such as a film reel or clapperboard. The design should use a dark bac 1.png"
+                        />
+                        <div class="group">
+                            <div class="overlap-group"><div class="text-wrapper">Films</div></div>
                         </div>
-                    </div>
-                    <img class="img" src="/static/images/details/Vetor.svg" />
-                    <div class="group-2">
-                        <div class="overlap-2">
-                            <div class="rectangle-2">
-                            <div class="text-wrapper-4">News</div></div>
+
+                        <img class="material-symbols" src="/static/images/details/aterial-symbols_movie.svg" />
+                        <div class="overlap-wrapper">
+                            <div id = "profile" class="div-wrapper">
+                                <div class="text-wrapper-2">Profile</div>
+                           </div>
+
                         </div>
-                    </div>
-                    <img class="vector-2" src="/static/images/details/aterial-symbols_movie.svg" />
-                </div>
-                <img class="image" src="https://image.tmdb.org/t/p/w300{{ content["picture"] }}"/>
+                        <img class="vector" src="/static/images/details/Vector.svg"/>
 
-                <p class= "p" >
-
-                    {{content["overview"]}}
-
-                </p>
-                <div class="release-date">
-                    Release
-                    date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content["release_date"] }}
-                </div>
-                <div class="production-countries">Production countries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content["production_countries"] }}</div>
-                <div class="runtime-min">
-                    Runtime:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    {{ content["runtime"] }} min
-                </div>
-                <div class="genres-drama-crime">
-                    Genres:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    {{ content["genres"] }}
-                </div>
-
-                <div class="text-wrapper-5">
-                    <a href="/filmsearch"><p id="backbuuton"> <---  Go Back</p></a>
-                    <p id="film_name">{{ content["title"]}}</p>
-                </div>
-
-                <p class="tagline-fear-can">
-                    Tagline:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    {{ content["tagline"] }}
-                </p>
-
-
-
-                <div class="overlap-3">
-                <div class="similar-movies-title">Similar Movies</div>
-                <div class="similar-movies-container" >
-                    {% for movie in content["similar"] %}
-                    <div class="similar-movie" data-movie-id={{ movie["id"] }}>
-                        <img class="similar-movie-poster" src="https://image.tmdb.org/t/p/w185{{ movie['poster_path']}}" alt="{{ movie['title'] }}">
-                        <div class="similar-movie-title">{{ movie['title'] }}</div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-                <div class="text-wrapper-8">{{ content["review_status"] }}</div>
-                <div class="text-wrapper-9">Trailer</div>
-                <div class="reviews-container">
-                    {% for review in content["reviews"] %}
-                    <div class="review">
-                    <div class="review-author">{{ review["author"] }}</div>
-                    <div class="review-content">{{ review["content"] }}</div>
+                        <div class="overlap-group-wrapper">
+                            <div class="overlap-2">
+                                <div class="rectangle-2">
+                                <div class="text-wrapper-3">About us</div></div>
+                            </div>
                         </div>
-                        {% else %}
-                        <div class="no-reviews">No reviews available.</div>
+                        <img class="img" src="/static/images/details/Vetor.svg" />
+                        <div class="group-2">
+                            <div class="overlap-2">
+                                <div class="rectangle-2">
+                                <div class="text-wrapper-4">News</div></div>
+                            </div>
+                        </div>
+                        <img class="vector-2" src="/static/images/details/aterial-symbols_movie.svg" />
+                    </div>
+                    <img class="image" src="https://image.tmdb.org/t/p/w300{{ content["picture"] }}"/>
+
+                    <p class= "p" >
+
+                        {{content["overview"]}}
+
+                    </p>
+                    <div class="release-date">
+                        Release
+                        date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content["release_date"] }}
+                    </div>
+                    <div class="production-countries">Production countries:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ content["production_countries"] }}</div>
+                    <div class="runtime-min">
+                        Runtime:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        {{ content["runtime"] }} min
+                    </div>
+                    <div class="genres-drama-crime">
+                        Genres:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        {{ content["genres"] }}
+                    </div>
+
+                    <div class="text-wrapper-5">
+                        <a href="/filmsearch"><p id="backbuuton"> <---  Go Back</p></a>
+                        <p id="film_name">{{ content["title"]}}</p>
+                    </div>
+
+                    <p class="tagline-fear-can">
+                        Tagline:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        {{ content["tagline"] }}
+                    </p>
+
+
+
+                    <div class="overlap-3">
+                    <div class="similar-movies-title">Similar Movies</div>
+                    <div class="similar-movies-container" >
+                        {% for movie in content["similar"] %}
+                        <div class="similar-movie" data-movie-id={{ movie["id"] }}>
+                            <img class="similar-movie-poster" src="https://image.tmdb.org/t/p/w185{{ movie['poster_path']}}" alt="{{ movie['title'] }}">
+                            <div class="similar-movie-title">{{ movie['title'] }}</div>
+                        </div>
                         {% endfor %}
                     </div>
+                </div>
 
-                <div class="rectangle-3">
-                    <iframe width="746 " height="420 " src="https://www.youtube.com/embed/{{ content["trailer"] }}?si=C7aAAAxjP6H3nq3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+
+
+
+
+
+                    <div class="text-wrapper-8">{{ content["review_status"] }}</div>
+                    <div class="text-wrapper-9">Trailer</div>
+                    <div class="reviews-container">
+                        {% for review in content["reviews"] %}
+                        <div class="review">
+                        <div class="review-author">{{ review["author"] }}</div>
+                        <div class="review-content">{{ review["content"] }}</div>
+                            </div>
+                            {% else %}
+                            <div class="no-reviews">No reviews available.</div>
+                            {% endfor %}
+                        </div>
+
+                    <div class="rectangle-3">
+                        <iframe width="746 " height="420 " src="https://www.youtube.com/embed/{{ content["trailer"] }}?si=C7aAAAxjP6H3nq3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </div>
                 </div>
             </div>
-        </div>
-    <script src="/static/js/details/app.js"></script>
-    </body>
-</html>
+        <script src="/static/js/details/app.js"></script>
+        </body>
+    </html>

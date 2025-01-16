@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/static/css/aboutus/globals.css" />
+    <link rel="stylesheet" href="/static/css/aboutus/style.css" />
+    <style>
+      /* Добавляем стили для графика */
+      .rectangle-4 {
+        position: relative;
+        width: 450px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+      }
+
+      /* Анимация линии */
+      .progress-line {
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        animation: moveLine 4s linear infinite;
+      }
+
+      @keyframes moveLine {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="plugin-file-cover">
+      <div class="div">
+        <!-- Все ваши элементы остаются без изменений -->
+
+        <div class="rectangle-4">
+          <svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+            <!-- Ось X -->
+            <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
+            <!-- Ось Y -->
+            <line x1="50" y1="200" x2="50" y2="50" stroke="black" stroke-width="2"/>
+
+            <!-- Подписи для дней недели -->
+            <text x="60" y="220">Mon</text>
+            <text x="110" y="220">Tue</text>
+            <text x="160" y="220">Wed</text>
+            <text x="210" y="220">Thu</text>
+            <text x="260" y="220">Fri</text>
+            <text x="310" y="220">Sat</text>
+            <text x="360" y="220">Sun</text>
+
+            <!-- Полоска-анимация -->
+            <line x1="50" y1="30" x2="350" y2="30" stroke="red" stroke-width="4" class="progress-line"/>
+
+            <!-- Столбцы (Users) -->
+            <rect x="60" y="140" width="40" height="60" fill="blue"/>
+            <rect x="110" y="100" width="40" height="100" fill="green"/>
+            <rect x="160" y="80" width="40" height="120" fill="purple"/>
+            <rect x="210" y="120" width="40" height="80" fill="orange"/>
+            <rect x="260" y="90" width="40" height="110" fill="pink"/>
+            <rect x="310" y="130" width="40" height="70" fill="red"/>
+            <rect x="360" y="60" width="40" height="140" fill="cyan"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
