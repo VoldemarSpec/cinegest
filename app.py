@@ -12,6 +12,7 @@ users = [{"email": "email", "password": "password"}]
 @app.route('/', methods =["GET", "POST"])
 def main_page():
     is_logged_in = 'user_id' in session  # Проверяем, есть ли пользователь в сессии
+    
     return render_template('index.html', is_logged_in=is_logged_in)
 
 
@@ -128,7 +129,7 @@ def login():
             if email == i["email"] and password == i['password']:
                 session['user_id'] = 1
                 return redirect('/profile')
-        return "Неверный логин или пароль", 401
+        return render_template("incorrectpassword.html")
 
 
     return render_template('login.html')
@@ -165,6 +166,9 @@ def register():
 def aboutus():
     return render_template('aboutus.html')
 
+@app.route('/news')
+def news():
+    return render_template('news.html')
 
 app.run(debug=False)
 

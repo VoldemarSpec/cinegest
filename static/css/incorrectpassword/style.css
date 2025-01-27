@@ -1,0 +1,234 @@
+.plugin-file-cover {
+  background-color: #101010;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.plugin-file-cover .div {
+  background-color: #101010;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.plugin-file-cover .overlap {
+  position: absolute;
+  width: 1922px;
+  height: 87px;
+  top: -14px;
+  left: -1px;
+}
+
+.plugin-file-cover .rectangle {
+  width: 1922px;
+  height: 86px;
+  top: 0;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+  background-color: #1a1a1a;
+}
+
+.plugin-file-cover .group {
+  height: 50px;
+  top: 28px;
+  left: 12px;
+  position: absolute;
+  width: 219px;
+}
+
+.plugin-file-cover .overlap-group {
+  position: relative;
+  width: 217px;
+  height: 50px;
+  background-color: #1a1a1a;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper {
+  position: absolute;
+  width: 112px;
+  top: -1px;
+  left: 41px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ff007f;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.plugin-file-cover .overlap-wrapper {
+  height: 51px;
+  top: 27px;
+  left: 1444px;
+  position: absolute;
+  width: 219px;
+}
+
+.plugin-file-cover .overlap-2 {
+  position: relative;
+  width: 217px;
+  height: 51px;
+}
+
+.plugin-file-cover .rectangle-2 {
+  width: 217px;
+  height: 50px;
+  top: 1px;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: #ff007f;
+  position: absolute;
+  left: 0;
+  background-color: #1a1a1a;
+}
+
+.plugin-file-cover .text-wrapper-2 {
+  position: absolute;
+  width: 154px;
+  top: 0;
+  left: 10px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ff007f;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.plugin-file-cover .overlap-group-wrapper {
+  height: 51px;
+  top: 27px;
+  left: 1699px;
+  position: absolute;
+  width: 219px;
+}
+
+.plugin-file-cover .text-wrapper-3 {
+  position: absolute;
+  width: 112px;
+  top: 0;
+  left: 42px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ff007f;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.plugin-file-cover .div-wrapper {
+  height: 50px;
+  top: 28px;
+  left: 265px;
+  position: absolute;
+  width: 219px;
+}
+
+.plugin-file-cover .overlap-3 {
+  position: relative;
+  width: 217px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: #ff007f;
+}
+
+.plugin-file-cover .text-wrapper-4 {
+  position: absolute;
+  width: 112px;
+  top: -1px;
+  left: 31px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ff007f;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.plugin-file-cover .DALLE {
+  position: absolute;
+  width: 76px;
+  height: 73px;
+  top: 14px;
+  left: 923px;
+  object-fit: cover;
+}
+
+.plugin-file-cover .vector {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 34px;
+  left: 432px;
+}
+
+.plugin-file-cover .material-symbols {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 30px;
+  left: 170px;
+}
+
+.plugin-file-cover .img {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 32px;
+  left: 1864px;
+}
+
+.plugin-file-cover .vector-2 {
+  position: absolute;
+  width: 22px;
+  height: 39px;
+  top: 34px;
+  left: 1626px;
+}
+
+.plugin-file-cover .p {
+  position: absolute;
+  width: 1082px;
+  top: 383px;
+  left: 468px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.plugin-file-cover .go-back-to-login {
+  position: absolute;
+  width: 700px;
+  top: 658px;
+  left: 937px;
+  font-family: "Circular Spotify Text-Black", Helvetica;
+  font-weight: 900;
+  color: #ff007f;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.33s ;
+}
+
+#backbuuton :hover{
+  color: #1a1a1a;
+
+}

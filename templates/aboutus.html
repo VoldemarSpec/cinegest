@@ -4,69 +4,102 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/static/css/aboutus/globals.css" />
     <link rel="stylesheet" href="/static/css/aboutus/style.css" />
-    <style>
-      /* Добавляем стили для графика */
-      .rectangle-4 {
-        position: relative;
-        width: 450px;
-        height: 300px;
-        background-color: white;
-        border-radius: 10px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px auto;
-      }
-
-      /* Анимация линии */
-      .progress-line {
-        stroke-dasharray: 400;
-        stroke-dashoffset: 400;
-        animation: moveLine 4s linear infinite;
-      }
-
-      @keyframes moveLine {
-        0% { stroke-dashoffset: 400; }
-        100% { stroke-dashoffset: 0; }
-      }
-    </style>
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <div class="plugin-file-cover">
       <div class="div">
-        <!-- Все ваши элементы остаются без изменений -->
-
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="group">
+            <div class="overlap-group"><div class="text-wrapper">Films</div></div>
+          </div>
+          <div class="overlap-wrapper">
+            <div class="overlap-2">
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-2">About us</div>
+            </div>
+          </div>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-2">
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-3">News</div>
+            </div>
+          </div>
+          <div class="div-wrapper">
+            <div class="overlap-group"><div class="text-wrapper-4">Profile</div></div>
+          </div>
+          <img
+            class="DALLE"
+            src="/static/images/aboutus/Plugin/DALL·E%202024-12-26%2011.26.09%20-%20Create%20a%20flat,%20minimalistic%20logo%20in%20a%20cinematic%20style%20featuring%20a%20single%20object,%20such%20as%20a%20film%20reel%20or%20clapperboard.%20The%20design%20should%20use%20a%20dark%20bac%201.svg"
+          />
+          <img class="vector" src="/static/images/aboutus/Plugin/Vector.svg" />
+          <img class="material-symbols" src="/static/images/aboutus/Plugin/material-symbols_movie.svg" />
+          <img class="img" src="/static/images/aboutus/Plugin/Vector-1.svg" />
+          <img class="vector-2" src="/static/images/aboutus/Plugin/Vector-2.svg" />
+        </div>
+        <p class="about-us-cinegest">
+          <span class="span">About Us | CineGest 🎬<br /></span> <span class="text-wrapper-5"><br /><br /><br /></span>
+        </p>
+        <p class="p">Welcome to CineGest – your ultimate movie discovery platform!</p>
+        <img
+          class="DALLE-2"
+          src="/static/images/aboutus/Plugin/DALL·E%202025-01-16%2016.21.43%20-%20A%20vibrant%20cinematic%20composition%20featuring%20a%20vintage%20film%20camera,%20a%20classic%20film%20reel,%20and%20a%20director's%20clapperboard%20with%20bright%20neon%20pink%20highlights.%20%201.png"
+        />
+        <div class="overlap-3">
+          <p class="our-mission">
+            <span class="text-wrapper-6"
+              >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span class="text-wrapper-7">Our Mission<br /></span>
+            <span class="text-wrapper-6"><br /><br /></span>
+          </p>
+          <p class="text-wrapper-8">
+            At CineGest, we believe that every film tells a story and finding the right one should be effortless. Our
+            mission is to help you discover the best movies and series tailored to your tastes, saving you from endless
+            scrolling and decision fatigue.
+          </p>
+        </div>
+        <p class="how-it-works">
+          <span class="text-wrapper-9">How It Works?<br /></span>
+          <span class="text-wrapper-5"><br /><br /><br /><br /></span>
+        </p>
+        <p class="text-wrapper-10">
+          🔎 Smart Recommendations – Personalized movie suggestions based on your preferences. 🎞 Curated Lists –
+          Handpicked selections by genre, mood, and trending favorites. 🔥 Latest Releases – Stay updated with the
+          hottest new movies and top-rated hits.
+        </p>
+        <p class="why-choose-cinegest">
+          <span class="text-wrapper-11"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+          >
+          <span class="text-wrapper-7">Why Choose CineGest?<br /></span>
+          <span class="text-wrapper-5"><br /><br /><br /></span>
+        </p>
+        <p class="tailored-movie-picks">
+          ✔ Tailored Movie Picks – We bring you recommendations that truly match your style. ✔ User-Friendly Experience
+          – Spend less time searching, more time watching. ✔ Your Gateway to Cinema – Explore, experience, and enjoy
+          films like never before.<br />Join CineGest today and make every movie night an unforgettable cinematic
+          journey! 🎥✨
+        </p>
+        <img
+          class="DALLE-3"
+          src="/static/images/aboutus/Plugin/DALL·E%202025-01-16%2016.28.11%20-%20An%20inspiring%20digital%20illustration%20representing%20'Our%20Mission'%20for%20a%20movie%20discovery%20platform.%20The%20image%20features%20a%20glowing%20cinematic%20scene%20with%20a%20diver%201.png"
+        />
+        <img
+          class="DALLE-4"
+          src="/static/images/aboutus/Plugin/DALL·E%202025-01-16%2016.28.32%20-%20A%20dynamic%20and%20visually%20appealing%20infographic%20representing%20'How%20It%20Works_'%20for%20a%20movie%20discovery%20platform.%20The%20illustration%20showcases%20a%20sleek,%20futurist%201.png"
+        />
+        <img class="image" src="/static/images/aboutus/Plugin/image 1.png" />
+        <div class="text-wrapper-12">Active users every day!</div>
         <div class="rectangle-4">
-          <svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
-            <!-- Ось X -->
-            <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="2"/>
-            <!-- Ось Y -->
-            <line x1="50" y1="200" x2="50" y2="50" stroke="black" stroke-width="2"/>
 
-            <!-- Подписи для дней недели -->
-            <text x="60" y="220">Mon</text>
-            <text x="110" y="220">Tue</text>
-            <text x="160" y="220">Wed</text>
-            <text x="210" y="220">Thu</text>
-            <text x="260" y="220">Fri</text>
-            <text x="310" y="220">Sat</text>
-            <text x="360" y="220">Sun</text>
+            <canvas id="visitsChart"></canvas>
 
-            <!-- Полоска-анимация -->
-            <line x1="50" y1="30" x2="350" y2="30" stroke="red" stroke-width="4" class="progress-line"/>
 
-            <!-- Столбцы (Users) -->
-            <rect x="60" y="140" width="40" height="60" fill="blue"/>
-            <rect x="110" y="100" width="40" height="100" fill="green"/>
-            <rect x="160" y="80" width="40" height="120" fill="purple"/>
-            <rect x="210" y="120" width="40" height="80" fill="orange"/>
-            <rect x="260" y="90" width="40" height="110" fill="pink"/>
-            <rect x="310" y="130" width="40" height="70" fill="red"/>
-            <rect x="360" y="60" width="40" height="140" fill="cyan"/>
-          </svg>
         </div>
       </div>
     </div>
+  <script src="/static/js/aboutus/app.js"> </script>
   </body>
 </html>

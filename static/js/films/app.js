@@ -21,6 +21,11 @@ const GENRE_MAP = {
 };
 
 document.getElementById("popular").addEventListener("click", async ()=>{
+  document.getElementById("top_rated").style.color = "#ff007f"
+  document.getElementById("upcoming").style.color = "#ff007f"
+  document.getElementById("now_playing").style.color = "#ff007f"
+  document.getElementById("popular").style.color = "white"
+
   const body = {
       type: "popular"
   };
@@ -92,8 +97,12 @@ document.getElementById("popular").addEventListener("click", async ()=>{
   }
 )
 
-
 document.getElementById("now_playing").addEventListener("click", async ()=>{
+    document.getElementById("top_rated").style.color = "#ff007f"
+  document.getElementById("upcoming").style.color = "#ff007f"
+  document.getElementById("now_playing").style.color = "white"
+  document.getElementById("popular").style.color = "#ff007f"
+
   const body = {
       type: "now_playing"
   };
@@ -166,6 +175,12 @@ document.getElementById("now_playing").addEventListener("click", async ()=>{
 )
 
 document.getElementById("upcoming").addEventListener("click", async ()=>{
+  document.getElementById("top_rated").style.color = "#ff007f"
+  document.getElementById("upcoming").style.color = "white"
+  document.getElementById("now_playing").style.color = "#ff007f"
+  document.getElementById("popular").style.color = "#ff007f"
+
+
   const body = {
       type: "upcoming"
   };
@@ -239,6 +254,12 @@ document.getElementById("upcoming").addEventListener("click", async ()=>{
 
 
 document.getElementById("top_rated").addEventListener("click", async ()=>{
+
+  document.getElementById("top_rated").style.color = "white"
+  document.getElementById("upcoming").style.color = "#ff007f"
+  document.getElementById("now_playing").style.color = "#ff007f"
+  document.getElementById("popular").style.color = "#ff007f"
+
   const body = {
       type: "top_rated"
   };
